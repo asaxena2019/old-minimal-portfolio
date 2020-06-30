@@ -48,33 +48,32 @@ social_media:
   # youtube: your_username
 
 portfolio:
-  - name: FakeNewsify
-    web_url: https://github.com/asaxena2019/sl-careers
-    image_url: 
-    description: Program that filters real and fake news and informs users on whether or not an article is clickbait for Same Home Different Hacks 2020
-    height: 64
-    width: 64
-    language:
-      - title: NumPy
-      - title: pandas
-      - title: Natural Language Toolkit
-      - title: MongoDB
-      - title: Flask
-      - title: Bootstrap
-      - title: HTML/CSS
-    date: June 2020
 
   - name: ScottyLabs Career Page
     web_url: https://github.com/asaxena2019/sl-careers
-    image_url:
+    image_url: https://github.com/asaxena2019/asaxena2019.github.io/blob/master/_images/SL_Careers.png?raw=true
     description: Webpage of job, internship, scholarship, research, and event opportunities in technical fields to the ScottyLasbs community
-    height: 64
-    width: 64
+    height: 150
+    width: 150
     language:
       - title: React
       - title: Material UI
       - title: Node.js
       - title: Google Sheets API
+      - title: HTML/CSS
+    date: May 2020 - Present
+
+  - name: Portfolio Website
+    web_url: https://github.com/asaxena2019/minimal-particle-template
+    image_url: https://github.com/asaxena2019/asaxena2019.github.io/blob/master/_images/personal-website.png?raw=true
+    description: Template for my portfolio website (yes, this one!) with instructions on how to create a new website 
+    height: 150
+    width: 225
+    language:
+      - title: JavaScript
+      - title: Jekyll
+      - title: Ruby
+      - title: YAML
       - title: HTML/CSS
     date: May 2020 - Present
 
@@ -86,21 +85,50 @@ portfolio:
     width: 64
     language: 
       - title: MIT App Inventor
-      - title: HTML/CSS
       - title: JavaScript
       - title: Bootstrap
+      - title: HTML/CSS
     date: September 2019 - Present
 
-  - name: Henna Hands
-    web_url: https://www.behance.net/gallery/97934663/hand-modeling
-    image_url: https://github.com/asaxena2019/asaxena2019.github.io/blob/master/_images/henna-hands.jpg?raw=true
-    description: Designs of henna on hand models using surface modelling and analytical geometry
-    height: 75
-    width: 100
+  - name: COVID Tracker
+    web_url: https://ivanaway.github.io/
+    image_url: https://github.com/asaxena2019/asaxena2019.github.io/blob/master/_images/covid-tracker.png?raw=true
+    description: Data visualizer of corona virus cases based on state for Data Day Grind 2020
+    height: 175
+    width: 225
     language:
-      - title: Rhino 6.0
-      - title: Grasshoper
-    date: May 2020
+      - title: React
+      - title: Google Maps API
+      - title: COVID Tracking Project API
+      - title: HTML/CSS
+    date: June 2020
+
+  - name: FakeNewsify
+    web_url: https://fakenewsify.herokuapp.com/
+    image_url: https://github.com/asaxena2019/asaxena2019.github.io/blob/master/_images/fakenews.png?raw=true
+    description: Program that filters real and fake news and informs users on whether or not an article is clickbait for Same Home Different Hacks 2020
+    height: 175
+    width: 225
+    language:
+      - title: NumPy
+      - title: pandas
+      - title: Natural Language Toolkit
+      - title: MongoDB
+      - title: Flask
+      - title: Bootstrap
+      - title: HTML/CSS
+    date: June 2020
+
+  ##- name: Henna Hands
+    ##web_url: https://www.behance.net/gallery/97934663/hand-modeling
+    ##image_url: https://github.com/asaxena2019/asaxena2019.github.io/blob/master/_images/henna-hands.jpg?raw=true
+    ##description: Designs of henna on hand models using surface modelling and analytical geometry
+    ##height: 100
+    ##width: 100
+    ##language:
+     ## - title: Rhino 6.0
+     ## - title: Grasshoper
+    ##date: May 2020
 
   - name: Pokemon LED Lamp
     web_url: https://asaxena2019.github.io/pokemon-lamp/
@@ -142,8 +170,8 @@ portfolio:
     web_url: https://asaxena2019.github.io/Modelling-the-Forecast-of-Solar-Energetic-Particle-Events-Year-2/
     image_url: https://github.com/asaxena2019/asaxena2019.github.io/blob/master/_images/sep.jpeg?raw=true
     description: Program that forecasts the effects of solar phenomenon on Earth based on data from NASA satellites
-    height: 70
-    width: 75
+    height: 100
+    width: 125
     language:
       - title: Java
     date: August 2016 - May 2018

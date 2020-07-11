@@ -1,6 +1,6 @@
 # Portfolio Website
 
-Created a website using Github Pages and Jekyll. I used the Minimal theme because of its simplicity. I am currently in the process of moving content from my old website to this one. You can view my website at asaxena2019.github.io.
+Created a website using Github Pages and Jekyll. I used the Minimal theme because of its simplicity. You can check out the template [here](https://github.com/asaxena2019/minimal-particle-template). The live website can be found at [anushkasaxena.me](https://anushkasaxena.me).
 
 ## License
 

@@ -1,8 +1,27 @@
 <h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>⚙️Portfolio</h2>
 <div class="d-flex flex-wrap gutter-condensed mb-4">
-  {% for topic in site.portfolio %}
-    <div class="col-6 col-md-12 col-lg-6 col-xl-4 mb-3">
-      {% include topic-card.html %}
+  <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" id="personal-tab" data-toggle="tab" href="#personal" role="tab" aria-controls="personal" aria-selected="true">Personal</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="hackathon-tab" data-toggle="tab" href="#hackathon" role="tab" aria-controls="hackathon" aria-selected="false">Hackathon</a>
+    </li>
+  </ul>
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="personal" role="tabpanel" aria-labelledby="personal-tab">
+        {% for topic in site.portfolio %}
+          {% if topic.type == 'personal' %}
+            {% include topic-card.html %}
+          {% endif %}
+        {% endfor %}
     </div>
-  {% endfor %}
+    <div class="tab-pane fade" id="hackathon" role="tabpanel" aria-labelledby="hackathon-tab">
+      {% for topic in site.portfolio %}
+          {% if topic.type == 'hackathon' %}
+            {% include topic-card.html %}
+          {% endif %}
+        {% endfor %}
+    </div>
+  </div>
 </div>

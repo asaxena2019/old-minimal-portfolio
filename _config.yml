@@ -49,13 +49,59 @@ social_media:
 
 portfolio:
 
-  - name: GroupHub
-    web_url: http://grouphub.netlify.app/
+  - name: PeerBuilt
+    web_url: https://peerbuilt.netlify.app/
     image_url: 
-    description: Connecting students to online communities based on their interests and needs
+    description: Technica 2020 Submission
     height: 150
     width: 150
     type: hackathon
+    language:
+      - title: React
+    date: October 2020
+
+  - name: Gatsby Conversation
+    web_url: https://gatsby-conversation.netlify.app/
+    image_url: 
+    description: Gatsby conversation-themed starter template, currently under construction
+    height: 150
+    width: 150
+    type: personal
+    language:
+      - title: Gatsby
+    date: October 2020 - Present
+
+  - name: Gatsby Space
+    web_url: https://gatsby-space.netlify.app/
+    image_url: 
+    description: Gatsby space-themed starter template, currently under construction
+    height: 150
+    width: 150
+    type: personal
+    language:
+      - title: Gatsby
+    date: October 2020 - Present
+
+  - name: Pineapples
+    web_url: https://pineapples-chalkboard.herokuapp.com/
+    image_url: 
+    description: Collaborative blackboard for residential communities, currently under construction
+    height: 150
+    width: 150
+    type: personal
+    language:
+      - title: React
+      - title: Sockets.io
+      - title: p5.js
+    date: October 2020 - Present
+
+  - name: GroupHub
+    web_url: http://grouphub.netlify.app/
+    image_url: https://raw.githubusercontent.com/asaxena2019/grouphub/aa9d4c2d97fb20b73142ff5fa2454645ecbcba2e/src/world.svg
+    description: Connecting students to online communities based on their interests and needs
+    height: 150
+    width: 150
+    type: personal
     language:
       - title: React
     date: June 2020 - July 2020

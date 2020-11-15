@@ -1,7 +1,6 @@
 {% include header.html %}
 
 {% if site.layout == 'stacked' %}
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <div class="container-lg py-6 p-responsive text-center">
     {% include masthead.html metadata=true %}
 
@@ -21,7 +20,7 @@
       </div>
     {% endif %}
 
-    {% if site.organizations %}
+    {% if site.orgs %}
       <div class="my-6">
         {% include groups.html %}
       </div>
@@ -48,11 +47,6 @@
         {% include thoughts.html %}
       </div>
     {% endunless %}
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
-
   </div>
 {% else %}
   <div class="d-md-flex min-height-full {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
@@ -62,6 +56,11 @@
 
     <div class="col-md-7 col-lg-8 col-xl-9 px-4 py-6 px-lg-7 border-top border-md-top-0 bg-color-gray" 
     {% if site.style == 'dark' %} style="background-color: #2f363d !important"{% endif %}>
+
+      <div class="canvas">
+        <canvas id="canvas1"></canvas>
+        <script src="js/app.js"></script>
+      </div>
       
       <div class="mx-auto" style="max-width: 900px;">
         {% unless content == ""  %}

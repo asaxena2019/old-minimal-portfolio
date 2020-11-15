@@ -1,4 +1,4 @@
-layout: stacked
+layout: sidebar
 style: light
 
 plugins:
@@ -29,12 +29,12 @@ projects:
     # - repo-name
 
 social_media:
-  #  behance: anushkasaxena1
+    behance: anushkasaxena1
     devpost: anushkasaxena2019
   # dribbble: your_username
     facebook: anushka.saxena.927543
   # hackerrank: your_username
-  #  instagram: _anushkasaxena
+    instagram: _anushkasaxena
   # keybase: your_username
     linkedin: anushka-saxena-b40aa2165
   # mastodon: your_username
@@ -44,66 +44,45 @@ social_media:
     twitter: 3muchcoffee5me
   # unsplash: your_username
   # vk: your_username
-  #  website: http://anushkasaxena.com
+    website: http://anushkasaxena.com
   # youtube: your_username
 
 portfolio:
 
-  - name: PeerBuilt
-    web_url: https://peerbuilt.netlify.app/
+  - name: Coffee Coders
+    web_url: https://medium.com/@coffeecoders
     image_url: 
-    description: Technica 2020 Submission
+    description: a secret :) for now, check out my medium page!
     height: 150
     width: 150
-    type: hackathon
     language:
-      - title: React
-    date: October 2020
+      - title: Gatsby JS
+      - title: HTML/CSS
+      - title: Markdown
+    date: July 2020 - Present
 
-  - name: Gatsby Conversation
-    web_url: https://gatsby-conversation.netlify.app/
+  - name: A Taste of Africa Website
+    web_url: https://atasteofafrica.netlify.app/
     image_url: 
-    description: Gatsby conversation-themed starter template, currently under construction
+    description: Website for A Taste of Africa, a Cameroonian-based catering business in California. Developed with a remote team as a part of Levare
     height: 150
     width: 150
-    type: personal
     language:
-      - title: Gatsby
-    date: October 2020 - Present
-
-  - name: Gatsby Space
-    web_url: https://gatsby-space.netlify.app/
-    image_url: 
-    description: Gatsby space-themed starter template, currently under construction
-    height: 150
-    width: 150
-    type: personal
-    language:
-      - title: Gatsby
-    date: October 2020 - Present
-
-  - name: Pineapples
-    web_url: https://pineapples-chalkboard.herokuapp.com/
-    image_url: 
-    description: Collaborative blackboard for residential communities, currently under construction
-    height: 150
-    width: 150
-    type: personal
-    language:
-      - title: React
-      - title: Sockets.io
-      - title: p5.js
-    date: October 2020 - Present
+      - title: Gatsby JS
+      - title: HTML/CSS
+      - title: Google Sheets API
+      - title: Netlify CMS
+    date: June 2020 - August 2020
 
   - name: GroupHub
     web_url: http://grouphub.netlify.app/
-    image_url: https://raw.githubusercontent.com/asaxena2019/grouphub/aa9d4c2d97fb20b73142ff5fa2454645ecbcba2e/src/world.svg
-    description: Connecting students to online communities based on their interests and needs
+    image_url: 
+    description: 
     height: 150
     width: 150
-    type: personal
     language:
-      - title: React
+      - title: React JS
+      - title: HTML/CSS
     date: June 2020 - July 2020
 
   - name: ScottyLabs Career Page
@@ -112,11 +91,12 @@ portfolio:
     description: Webpage of job, internship, scholarship, research, and event opportunities in technical fields to the ScottyLasbs community
     height: 150
     width: 150
-    type: personal
     language:
       - title: React
+      - title: Material UI
       - title: Node.js
-      - title: Google API
+      - title: Google Sheets API
+      - title: HTML/CSS
     date: May 2020 - July 2020
 
   - name: Portfolio Website
@@ -125,9 +105,12 @@ portfolio:
     description: Template for my portfolio website (yes, this one!) with instructions on how to create a new website 
     height: 150
     width: 225
-    type: personal
     language:
+      - title: JavaScript
       - title: Jekyll
+      - title: Ruby
+      - title: YAML
+      - title: HTML/CSS
     date: May 2020
 
   - name: Feed the Burghers
@@ -136,10 +119,11 @@ portfolio:
     description: App and website to connect economically disadvantaged people in Pittsburgh to food sources. Won Best Social Hack at HackCMU 2019
     height: 64
     width: 64
-    type: hackathon
     language: 
       - title: MIT App Inventor
+      - title: JavaScript
       - title: Bootstrap
+      - title: HTML/CSS
     date: September 2019 - August 2020
 
   - name: COVID Tracker
@@ -148,10 +132,11 @@ portfolio:
     description: Data visualizer of corona virus cases based on state for Data Day Grind 2020
     height: 175
     width: 225
-    type: hackathon
     language:
       - title: React
-      - title: Google API
+      - title: Google Maps API
+      - title: COVID Tracking Project API
+      - title: HTML/CSS
     date: June 2020
 
   - name: FakeNewsify
@@ -160,12 +145,38 @@ portfolio:
     description: Program that filters real and fake news and informs users on whether or not an article is clickbait for Same Home Different Hacks 2020
     height: 175
     width: 225
-    type: hackathon
     language:
       - title: NumPy
+      - title: pandas
+      - title: Natural Language Toolkit
       - title: MongoDB
       - title: Flask
+      - title: Bootstrap
+      - title: HTML/CSS
     date: June 2020
+
+  ##- name: Henna Hands
+    ##web_url: https://www.behance.net/gallery/97934663/hand-modeling
+    ##image_url: https://github.com/asaxena2019/asaxena2019.github.io/blob/master/_images/henna-hands.jpg?raw=true
+    ##description: Designs of henna on hand models using surface modelling and analytical geometry
+    ##height: 100
+    ##width: 100
+    ##language:
+     ## - title: Rhino 6.0
+     ## - title: Grasshoper
+    ##date: May 2020
+
+  - name: Pokemon LED Lamp
+    web_url: https://asaxena2019.github.io/pokemon-lamp/
+    image_url: https://github.com/asaxena2019/asaxena2019.github.io/blob/master/_images/pokemon-lamp.JPG?raw=true
+    description: 3D-printed and laser engraved a Pokemon themed lamp powered by an Arduino and LED lights
+    height: 100
+    width: 150
+    language: 
+      - title: Arduino
+      - title: Solidworks
+      - title: Inkscape
+    date: March 2020
 
   - name: Pac-Man 1.12
     web_url: https://asaxena2019.github.io/termproject/
@@ -173,7 +184,6 @@ portfolio:
     description: Spin-off of Pac-Man with path finding ghosts, randomly generated maps, and side-scrolling boards
     height: 100
     width: 150
-    type: personal
     language: 
       - title: Python
     date: October 2019 - December 2019
@@ -184,10 +194,12 @@ portfolio:
     description: App that helps users deal with anxiety and stress for PennApps 2018
     height: 100
     width: 150
-    type: hackathon
     language: 
+      - title: XCode
       - title: Swift
       - title: DocuSign API
+      - title: HTML/CSS
+      - title: JavaScript
     date: September 2018
 
   - name: Modelling the Forecast of Solar Energetic Particle Events
@@ -196,7 +208,6 @@ portfolio:
     description: Program that forecasts the effects of solar phenomenon on Earth based on data from NASA satellites
     height: 100
     width: 125
-    type: personal
     language:
       - title: Java
     date: August 2016 - May 2018
@@ -205,16 +216,16 @@ experience:
 
   - name: Freshman Technical Analyst Intern @ Bank of America
     web_url: 
-    image_url: https://www.bankbranchlocator.com/logo/bank-of-america.jpg
-    description: Programmed a streaming API in Java, Mule, and Apache Tomcat under Global Banking and Markets Technology and increased data transfer capacity to 50 MB
-    height: 64
-    width: 75
+    image_url: 
+    description: 
+    height: 75
+    width: 64
     date: June 2020 - August 2020
 
   - name: Web Developer Volunteer @ Levare
-    web_url: https://atasteofafrica.netlify.app/
-    image_url: https://media-exp1.licdn.com/dms/image/C4E0BAQEuGzyh6LWrGA/company-logo_100_100/0?e=1608768000&v=beta&t=xhPyNU_XAPHEH0_L5Ph6d7vcshua7gszgZAbb_b4FF4
-    description: Developed a website for A Taste of Africa, a Cameroonian-based catering business in California
+    web_url: 
+    image_url: 
+    description: 
     height: 75
     width: 64
     date: June 2020 - August 2020
